@@ -32,7 +32,7 @@ const Navbar = () => {
       >
         <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 group">
-            <Trophy className="text-primary group-hover:scale-110 transition-transform" size={28} />
+            <img src="/logo.png" alt="KickIntel Logo" className="w-10 h-10 object-contain group-hover:scale-110 transition-transform rounded-full" />
             <span className="text-2xl font-black tracking-tighter text-white">
               Kick<span className="text-primary">Intel AI</span>
             </span>
