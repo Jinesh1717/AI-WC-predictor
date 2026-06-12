@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Trophy, Activity, Users, Globe2, Brain, ChevronRight } from 'lucide-react';
+import { Activity, Users, Globe2, Brain } from 'lucide-react';
 import Scene from '../components/3d/Scene';
 import { PredictorSimulator } from '../components/PredictorSimulator';
 import { useRef } from 'react';

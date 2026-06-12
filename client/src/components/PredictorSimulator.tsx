@@ -38,8 +38,6 @@ export const PredictorSimulator = () => {
     }
   };
 
-  const getTeamInfo = (id: string) => teams.find(t => t.id === id);
-
   return (
     <section className="py-32 relative z-10 overflow-hidden" id="simulator">
       {/* Background Image and Particles */}
