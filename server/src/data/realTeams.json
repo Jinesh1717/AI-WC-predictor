@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "coach": "SCALONI Lionel",
+    "ranking": 1,
+    "flag": "🇦🇷",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 82,
+      "defense": 79,
+      "midfield": 82,
+      "experience": 66,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "coach": "DE LA",
+    "ranking": 2,
+    "flag": "🇪🇸",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 70,
+      "defense": 70,
+      "midfield": 70,
+      "experience": 0,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "coach": "DESCHAMPS Didier",
+    "ranking": 3,
+    "flag": "🇫🇷",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 81,
+      "defense": 75,
+      "midfield": 77,
+      "experience": 54,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "ENG",
+    "name": "England",
+    "coach": "TUCHEL Thomas",
+    "ranking": 4,
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 83,
+      "defense": 74,
+      "midfield": 80,
+      "experience": 47,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "POR",
+    "name": "Portugal",
+    "coach": "MARTINEZ Roberto",
+    "ranking": 5,
+    "flag": "🇵🇹",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 83,
+      "defense": 77,
+      "midfield": 84,
+      "experience": 63,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "coach": "ANCELOTTI Carlo",
+    "ranking": 6,
+    "flag": "🇧🇷",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 80,
+      "defense": 77,
+      "midfield": 81,
+      "experience": 52,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "coach": "OUAHBI Mohamed",
+    "ranking": 7,
+    "flag": "🇲🇦",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 80,
+      "defense": 76,
+      "midfield": 77,
+      "experience": 44,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "CPV",
+    "name": "Cabo Verde",
+    "coach": "BUBISTA Pedro",
+    "ranking": 8,
+    "flag": "🇨🇻",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 86,
+      "defense": 76,
+      "midfield": 78,
+      "experience": 54,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "NED",
+    "name": "Netherlands",
+    "coach": "KOEMAN Ronald",
+    "ranking": 8,
+    "flag": "🇳🇱",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 83,
+      "defense": 78,
+      "midfield": 77,
+      "experience": 54,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "coach": "GARCIA Rudi",
+    "ranking": 9,
+    "flag": "🇧🇪",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 84,
+      "defense": 76,
+      "midfield": 84,
+      "experience": 54,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "GER",
+    "name": "Germany",
+    "coach": "NAGELSMANN Julian",
+    "ranking": 10,
+    "flag": "🇬🇪",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 78,
+      "defense": 78,
+      "midfield": 78,
+      "experience": 48,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "COD",
+    "name": "Congo DR",
+    "coach": "DESABRE Sebastien",
+    "ranking": 11,
+    "flag": "🇨🇩",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 82,
+      "defense": 75,
+      "midfield": 77,
+      "experience": 52,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "CRO",
+    "name": "Croatia",
+    "coach": "DALIC Zlatko",
+    "ranking": 11,
+    "flag": "🇭🇷",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 83,
+      "defense": 75,
+      "midfield": 83,
+      "experience": 54,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "coach": "LORENZO Nestor",
+    "ranking": 13,
+    "flag": "🇨🇴",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 78,
+      "defense": 79,
+      "midfield": 82,
+      "experience": 61,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "coach": "AGUIRRE Javier",
+    "ranking": 14,
+    "flag": "🇲🇽",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 82,
+      "defense": 82,
+      "midfield": 78,
+      "experience": 63,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "coach": "THIAW Pape",
+    "ranking": 15,
+    "flag": "🇸🇳",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 82,
+      "defense": 76,
+      "midfield": 81,
+      "experience": 57,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "URU",
+    "name": "Uruguay",
+    "coach": "BIELSA Marcelo",
+    "ranking": 16,
+    "flag": "🇺🇾",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 78,
+      "defense": 79,
+      "midfield": 79,
+      "experience": 56,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "USA",
+    "name": "USA",
+    "coach": "POCHETTINO Mauricio",
+    "ranking": 17,
+    "flag": "🇺🇸",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 70,
+      "defense": 70,
+      "midfield": 70,
+      "experience": 0,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "coach": "MORIYASU Hajime",
+    "ranking": 18,
+    "flag": "🇯🇵",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 77,
+      "defense": 76,
+      "midfield": 83,
+      "experience": 52,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "SUI",
+    "name": "Switzerland",
+    "coach": "YAKIN Murat",
+    "ranking": 19,
+    "flag": "🇨🇭",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 84,
+      "defense": 78,
+      "midfield": 82,
+      "experience": 60,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "IRN",
+    "name": "IR Iran",
+    "coach": "GHALEHNOY Amir",
+    "ranking": 22,
+    "flag": "🇮🇷",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 80,
+      "defense": 80,
+      "midfield": 83,
+      "experience": 62,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "TUR",
+    "name": "Türkiye",
+    "coach": "MONTELLA Vincenzo",
+    "ranking": 22,
+    "flag": "🇹🇷",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 79,
+      "defense": 78,
+      "midfield": 85,
+      "experience": 66,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "coach": "BECCACECE Sebastian",
+    "ranking": 23,
+    "flag": "🇪🇨",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 80,
+      "defense": 76,
+      "midfield": 76,
+      "experience": 52,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "coach": "RANGNICK Ralf",
+    "ranking": 24,
+    "flag": "🇦🇹",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 87,
+      "defense": 77,
+      "midfield": 80,
+      "experience": 58,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "KOR",
+    "name": "Korea Republic",
+    "coach": "HONG Myungbo",
+    "ranking": 25,
+    "flag": "🇰🇷",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 89,
+      "defense": 75,
+      "midfield": 81,
+      "experience": 54,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "coach": "POPOVIC Tony",
+    "ranking": 27,
+    "flag": "🇦🇺",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 78,
+      "defense": 76,
+      "midfield": 78,
+      "experience": 44,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "ALG",
+    "name": "Algeria",
+    "coach": "PETKOVIC Vladimir",
+    "ranking": 28,
+    "flag": "🇩🇿",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 80,
+      "defense": 77,
+      "midfield": 78,
+      "experience": 45,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt",
+    "coach": "HOSSAM HASSAN",
+    "ranking": 29,
+    "flag": "🇪🇬",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 84,
+      "defense": 75,
+      "midfield": 75,
+      "experience": 51,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "coach": "MARSCH Jesse",
+    "ranking": 30,
+    "flag": "🇨🇦",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 83,
+      "defense": 76,
+      "midfield": 82,
+      "experience": 60,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "coach": "BAZELEY Darren",
+    "ranking": 30,
+    "flag": "🇳🇿",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 87,
+      "defense": 76,
+      "midfield": 78,
+      "experience": 58,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "coach": "SOLBAKKEN Stale",
+    "ranking": 31,
+    "flag": "🇳🇴",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 84,
+      "defense": 74,
+      "midfield": 78,
+      "experience": 55,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "coach": "CHRISTIANSEN Thomas",
+    "ranking": 34,
+    "flag": "🇵🇦",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 82,
+      "defense": 81,
+      "midfield": 91,
+      "experience": 79,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "coach": "POTTER Graham",
+    "ranking": 38,
+    "flag": "🇸🇪",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 80,
+      "defense": 73,
+      "midfield": 75,
+      "experience": 37,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "CZE",
+    "name": "Czechia",
+    "coach": "KOUBEK Miroslav",
+    "ranking": 40,
+    "flag": "🇨🇿",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 80,
+      "defense": 75,
+      "midfield": 80,
+      "experience": 50,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "PAR",
+    "name": "Paraguay",
+    "coach": "ALFARO Gustavo",
+    "ranking": 41,
+    "flag": "🇵🇾",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 78,
+      "defense": 76,
+      "midfield": 76,
+      "experience": 46,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "SCO",
+    "name": "Scotland",
+    "coach": "CLARKE Steve",
+    "ranking": 42,
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 77,
+      "defense": 78,
+      "midfield": 85,
+      "experience": 60,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "coach": "LAMOUCHI Sabri",
+    "ranking": 45,
+    "flag": "🇹🇳",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 77,
+      "defense": 74,
+      "midfield": 76,
+      "experience": 40,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "coach": "CANNAVARO Fabio",
+    "ranking": 50,
+    "flag": "🇺🇿",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 89,
+      "defense": 76,
+      "midfield": 83,
+      "experience": 63,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "coach": "LOPETEGUI Julen",
+    "ranking": 56,
+    "flag": "🇶🇦",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 86,
+      "defense": 79,
+      "midfield": 86,
+      "experience": 66,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "coach": "ARNOLD Graham",
+    "ranking": 57,
+    "flag": "🇮🇶",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 80,
+      "defense": 76,
+      "midfield": 77,
+      "experience": 51,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "RSA",
+    "name": "South Africa",
+    "coach": "BROOS Hugo",
+    "ranking": 60,
+    "flag": "🇿🇦",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 77,
+      "defense": 73,
+      "midfield": 81,
+      "experience": 39,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "KSA",
+    "name": "Saudi Arabia",
+    "coach": "DONIS Georgios",
+    "ranking": 61,
+    "flag": "🇸🇦",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 84,
+      "defense": 75,
+      "midfield": 79,
+      "experience": 60,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "coach": "SELLAMI Jamal",
+    "ranking": 63,
+    "flag": "🇯🇴",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 85,
+      "defense": 78,
+      "midfield": 78,
+      "experience": 61,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia And Herzegovina",
+    "coach": "BARBAREZ Sergej",
+    "ranking": 64,
+    "flag": "🇧🇦",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 78,
+      "defense": 73,
+      "midfield": 73,
+      "experience": 37,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "coach": "CARLOS QUEIROZ",
+    "ranking": 73,
+    "flag": "🇬🇭",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 77,
+      "defense": 73,
+      "midfield": 76,
+      "experience": 37,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "CUW",
+    "name": "Curaçao",
+    "coach": "ADVOCAAT Dick",
+    "ranking": 82,
+    "flag": "🇨🇼",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 77,
+      "defense": 74,
+      "midfield": 79,
+      "experience": 43,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  },
+  {
+    "id": "HAI",
+    "name": "Haiti",
+    "coach": "MIGNE Sebastien",
+    "ranking": 83,
+    "flag": "🇭🇦",
+    "formation": "4-3-3",
+    "stats": {
+      "goalsScored": 15,
+      "goalsConceded": 5,
+      "winRate": 60,
+      "recentForm": [
+        1,
+        1,
+        0,
+        -1,
+        1
+      ],
+      "attack": 79,
+      "defense": 75,
+      "midfield": 73,
+      "experience": 41,
+      "benchStrength": 80,
+      "fitness": 80
+    }
+  }
+]
