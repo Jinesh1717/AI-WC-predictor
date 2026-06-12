@@ -15,6 +15,12 @@ export interface IPlayer extends Document {
     tackles: number;
   };
   isStarPlayer: boolean;
+  advancedStats?: {
+    marketValueEur?: number;
+    expectedGoalsXG?: number;
+    expectedAssistsXA?: number;
+    isInjured?: boolean;
+  };
 }
 
 const playerSchema = new Schema<IPlayer>({

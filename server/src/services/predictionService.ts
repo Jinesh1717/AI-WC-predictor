@@ -1,6 +1,13 @@
 import { Request, Response } from 'express';
 import Team from '../models/Team';
 import Player from '../models/Player';
+import HistoricalMatch from '../models/HistoricalMatch';
+
+const calculateFormScore = (form: number[]) => {
+  if (!form || form.length === 0) return 0.5;
+  const recentForm = form.slice(-5);
+  return recentForm.reduce((a, b) => a + b, 0) / (recentForm.length * 3);
+};
 
 export const predictMatch = async (req: Request, res: Response): Promise<void> => {
   try {
@@ -35,7 +42,7 @@ export const predictMatch = async (req: Request, res: Response): Promise<void> =
     let teamAH2HWins = 0;
     let teamBH2HWins = 0;
 
-    h2hMatches.forEach(match => {
+    h2hMatches.forEach((match: any) => {
       if (match.home_team === teamA.name && match.home_score > match.away_score) teamAH2HWins++;
       if (match.away_team === teamA.name && match.away_score > match.home_score) teamAH2HWins++;
       
@@ -174,10 +181,15 @@ export const predictMatch = async (req: Request, res: Response): Promise<void> =
       }
 
       // Mention Advanced Stats if applicable
-      if (winner.advancedStats?.expectedGoalsXG && winner.advancedStats.expectedGoalsXG > loser.advancedStats?.expectedGoalsXG) {
+      const winnerXG = winner.advancedStats?.expectedGoalsXG || 0;
+      const loserXG = loser.advancedStats?.expectedGoalsXG || 0;
+      if (winnerXG > 0 && winnerXG > loserXG) {
         explanation += `Advanced FBref data shows ${winner.name} generates significantly more Expected Goals (xG), giving them a heavy attacking edge. `;
       }
-      if (winner.advancedStats?.marketValueEur && winner.advancedStats.marketValueEur > loser.advancedStats?.marketValueEur * 1.5) {
+
+      const winnerMV = winner.advancedStats?.marketValueEur || 0;
+      const loserMV = loser.advancedStats?.marketValueEur || 0;
+      if (winnerMV > 0 && winnerMV > loserMV * 1.5) {
         explanation += `Transfermarkt valuations also highlight a massive disparity in squad market value. `;
       }
 

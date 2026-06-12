@@ -19,6 +19,12 @@ export interface ITeam extends Document {
     benchStrength: number;
     fitness: number;
   };
+  advancedStats?: {
+    marketValueEur?: number;
+    expectedGoalsXG?: number;
+    expectedGoalsAgainstXGA?: number;
+    keyInjuries?: string[];
+  };
 }
 
 const teamSchema = new Schema<ITeam>({
