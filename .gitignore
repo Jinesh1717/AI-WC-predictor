@@ -3,7 +3,6 @@ dist/
 .env
 .env.*
 *.log
-*.csv
 *.pdf
 .DS_Store
 server/node_modules/

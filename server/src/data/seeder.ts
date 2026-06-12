@@ -21,8 +21,14 @@ export const importData = async () => {
     }
     
     // Read from real JSON files generated from the PDF
-    const teamsPath = path.join(__dirname, 'realTeams.json');
-    const playersPath = path.join(__dirname, 'realPlayers.json');
+    let teamsPath = path.join(__dirname, 'realTeams.json');
+    let playersPath = path.join(__dirname, 'realPlayers.json');
+    
+    // In production (dist), the JSON files might not be copied, so point to src/
+    if (!fs.existsSync(teamsPath)) {
+      teamsPath = path.join(__dirname, '../../src/data/realTeams.json');
+      playersPath = path.join(__dirname, '../../src/data/realPlayers.json');
+    }
     
     const teams = JSON.parse(fs.readFileSync(teamsPath, 'utf8'));
     const players = JSON.parse(fs.readFileSync(playersPath, 'utf8'));
