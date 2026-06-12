@@ -32,7 +32,7 @@ const Footer = () => {
         <div>
           <h4 className="text-white font-semibold mb-4">Explore</h4>
           <ul className="space-y-2 text-gray-400 text-sm">
-            <li><Link to="/predict" className="hover:text-primary transition-colors">AI Predictor</Link></li>
+            <li><Link to="/predict" className="hover:text-primary transition-colors">KickIntel AI</Link></li>
             <li><Link to="/teams" className="hover:text-primary transition-colors">Teams & Stats</Link></li>
             <li><Link to="/bracket" className="hover:text-primary transition-colors">Tournament Bracket</Link></li>
             <li><Link to="/comparison" className="hover:text-primary transition-colors">Team Comparison</Link></li>

@@ -34,7 +34,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-3 group">
             <Trophy className="text-primary group-hover:scale-110 transition-transform" size={28} />
             <span className="text-2xl font-black tracking-tighter text-white">
-              AI<span className="text-primary">.PREDICTOR</span>
+              Kick<span className="text-primary">Intel AI</span>
             </span>
           </Link>
 
