@@ -3,7 +3,7 @@ import path from 'path';
 import csv from 'csv-parser';
 import HistoricalMatch from '../models/HistoricalMatch';
 
-const csvPath = path.resolve(__dirname, '../../../../results.csv');
+const csvPath = path.resolve(__dirname, '../../../results.csv');
 
 export async function seedKaggle() {
   const count = await HistoricalMatch.countDocuments();
@@ -20,15 +20,20 @@ export async function seedKaggle() {
       .pipe(csv())
       .on('data', (data) => {
         if (data.home_team && data.away_team && data.home_score !== '' && data.away_score !== '') {
-          matches.push({
-            date: new Date(data.date),
-            home_team: data.home_team,
-            away_team: data.away_team,
-            home_score: parseInt(data.home_score, 10),
-            away_score: parseInt(data.away_score, 10),
-            tournament: data.tournament,
-            neutral: data.neutral === 'TRUE'
-          });
+          const homeScore = parseInt(data.home_score, 10);
+          const awayScore = parseInt(data.away_score, 10);
+          
+          if (!isNaN(homeScore) && !isNaN(awayScore)) {
+            matches.push({
+              date: new Date(data.date),
+              home_team: data.home_team,
+              away_team: data.away_team,
+              home_score: homeScore,
+              away_score: awayScore,
+              tournament: data.tournament,
+              neutral: data.neutral === 'TRUE' || data.neutral === 'true'
+            });
+          }
         }
       })
       .on('end', async () => {
